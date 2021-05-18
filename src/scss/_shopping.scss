@@ -1,0 +1,338 @@
+.shopping {
+  max-width: 1366px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  /* .shopping__divider */
+  &__divider {
+    border: 1px solid rgba(32, 32, 32, 0.05);
+    position: absolute;
+    left: 111px;
+    right: 111px;
+
+  }
+  /* .shopping__carousel */
+  &__carousel {
+    margin: 20px 0 0 8%;
+    flex: 56.4%;
+
+    .carousel-indicators {
+      transform: translateY(100%);
+      margin-bottom: unset;
+      margin-left: unset;
+      justify-content: left;
+    }
+    .carousel-indicators img {
+      width: 64px;
+      height: 64px;
+    }
+    .carousel-inner:hover ~ button.carousel-control-prev, .carousel-inner:hover ~ button.carousel-control-next {
+      background: rgba(32, 32, 32, 0.15);
+    }
+    button.carousel-control-prev, button.carousel-control-next {
+      width: 48px;
+      &:hover {
+        background: rgba(32, 32, 32, 0.15);
+      }
+    }
+  }
+  /* .shopping__carousel image */
+  &__carousel img {
+    width: 100%;
+  }
+  /* .shopping__detail */
+  &__detail {
+    margin: 20px 7.5% 79px 20px;
+    flex: 43.6%;
+  }
+}
+.card-shop {
+  /* .card-shop__name */
+  &__name {
+    font-family: "Goudy Bookletter 1911";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #202020;
+    margin-bottom: 38px;
+  }
+  /* .card-shop__select */
+  &__select {
+  }
+  /* .card-shop__selectTitle */
+  &__selectTitle {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+  /* .card-shop__selectInches */
+  &__selectInches {
+    width: 100%;
+    max-width: 293px;
+    min-width: max-content;
+    height: 48px;
+    left: 790px;
+    top: 304px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+    border-radius: 4px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+  }
+  /* .card-shop__price */
+  &__price {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #232231;
+    margin-top: 18px;
+    display: flex;
+  }
+  &__price span:first-child {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+    color: #CC0000;
+    margin-right: 9px;
+  }
+  /* .card-shop__countADDcart */
+  &__countADDcart {
+    margin-top: 34px;
+    display: flex;
+  }
+  /* .card-shop__count */
+  &__count {
+    margin-right: 15px;
+  }
+  /* .card-shop__addCard */
+  &__addCard {
+  }
+  /* .card-shop__title */
+  &__title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 20px;
+    color: #202020;
+  }
+  /* .card-shop__subtitle */
+  &__subtitle {
+    font-weight: normal;
+  }
+}
+.countADDcart {
+  display: flex;
+  /* .countADDcart__minus */
+  &__minus {
+    width: 44px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+    border-radius: 4px 0px 0px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  /* .countADDcart__nmbr */
+  &__nmbr {
+    width: 63px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  &__nmbr::-webkit-outer-spin-button,
+  &__nmbr::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  &__nmbr[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+  /* .countADDcart__plus */
+  &__plus {
+    width: 44px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+.btnRed {
+  width: 100%;
+  min-width: max-content;
+  max-width: 262px;
+  height: 48px;
+  background: #CC0000;
+  border: 1px solid #950000;
+  box-sizing: border-box;
+  box-shadow: inset 0px -2px 2px rgba(32, 32, 32, 0.33);
+  border-radius: 4px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-shadow: 0px -1px 0px rgba(32, 32, 32, 0.33);
+  justify-content: center;
+  cursor: pointer;
+}
+
+.showMob {
+  display: none;
+}
+
+//=========  Responsive  ==============//
+
+@media (max-width: 768px) {
+  .shopping {
+    flex-direction: column;
+
+    &__carousel {
+      margin: 20px 0 54px 0;
+
+
+/*===========================   start change Bootstrap Carousel arrows and indicators   ========================*/
+
+      .carousel-indicators {
+        transform: translateY(100%);
+        justify-content: center;
+        width: 100%;
+
+          img {
+            width: 44px;
+            height: 44px;
+          }
+
+          button.carousel-control-prev, button.carousel-control-next {
+            background-color: unset;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+
+          .carousel-control-next-icon {
+            background-image: url("../img/shopping/carousel/right-black.png");
+            width: 11px;
+            height: 16px;
+          }
+
+          .carousel-control-next-icon:hover {
+            background-image: url("../img/shopping/carousel/rrr.png");
+            width: 11px;
+            height: 16px;
+          }
+
+          .carousel-control-prev-icon {
+            background-image: url("../img/shopping/carousel/left-black.png");
+            width: 11px;
+            height: 16px;
+          }
+
+          .carousel-control-prev-icon:hover {
+            background-image: url("../img/shopping/carousel/lll.png");
+            width: 11px;
+            height: 16px;
+          }
+    }
+
+/*===== indicators on the bottom of carousel   ========*/
+
+
+    }
+
+
+    &__detail {
+      margin-left: 18px;
+      margin-right: 18px;
+      margin-bottom: 47px;
+    }
+  }
+  .card-shop {
+    /* .card-shop__name */
+    &__name {
+      font-size: 21px;
+      line-height: 29px;
+      margin-bottom: 22px;
+      text-align: center;
+    }
+    &__chooseOption {
+      padding: 20px 18px 36px 18px;
+      margin-right: -18px;
+      margin-left: -18px;
+      margin-bottom: 22px;
+      background: rgba(32, 32, 32, 0.05);
+    }
+    &__selectTitle {
+      font-size: 16px;
+    }
+    &__price span:first-child {
+      font-size: 30px;
+    }
+    &__price span{
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &__title {
+      margin-bottom: 16px;
+    }
+
+  }
+
+  .showMob {
+    display: flex;
+  }
+
+
+
+
+}

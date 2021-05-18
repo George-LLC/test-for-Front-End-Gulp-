@@ -1,0 +1,37 @@
+{
+  "shopping": [
+    {
+      "id": 1,
+      "name": "Handmade Stainless Steel Kings Chain Viking Geri And Freki Mjolnir Necklace",
+      "length": ["60 CM (24 INCHES)", "30 CM (12 INCHES)", "15 CM (6 INCHES)"],
+      "price": 19.95,
+      "currency": "$",
+      "tax": "Tax included",
+      "images": ["img/shopping/01.jpg"],
+      "titleDescription": "Handmade Chain Geri and Freki Viking Necklace with Thor Hammer Mjolnir!",
+      "description": "The Kings chain was worn by Viking kings as a status symbol as the name applies. This is a 100% handmade Stainless Steel Chain. The crafting is a very time consuming process to put together the chain link by link. \n \n The hand made chain connects together with a lobster clamp."
+    },
+    {
+      "id": 2,
+      "name": "Handmade Stainless Steel Kings Chain Viking Geri And Freki Mjolnir Necklace",
+      "length": ["60 CM (24 INCHES)", "30 CM (12 INCHES)", "15 CM (6 INCHES)"],
+      "price": 19.95,
+      "currency": "$",
+      "tax": "Tax included",
+      "images": ["img/shopping/01.jpg", "img/shopping/01.jpg"],
+      "titleDescription": "Handmade Chain Geri and Freki Viking Necklace with Thor Hammer Mjolnir!!!",
+      "description": "The Kings chain was worn by Viking kings as a status symbol as the name applies. This is a 100% handmade Stainless Steel Chain. The crafting is a very time consuming process to put together the chain link by link. \n \n The hand made chain connects together with a lobster clamp."
+    },
+    {
+      "id": 3,
+      "name": "Handmade Stainless Steel Kings Chain Viking Geri And Freki Mjolnir Necklace",
+      "length": ["60 CM (24 INCHES)", "30 CM (12 INCHES)", "15 CM (6 INCHES)"],
+      "price": 19.95,
+      "currency": "$",
+      "tax": "Tax included",
+      "images": ["img/shopping/01.jpg", "img/shopping/01.jpg", "img/shopping/01.jpg"],
+      "titleDescription": "Handmade Chain Geri and Freki Viking Necklace with Thor Hammer Mjolnir!!!!!",
+      "description": "The Kings chain was worn by Viking kings as a status symbol as the name applies. This is a 100% handmade Stainless Steel Chain. The crafting is a very time consuming process to put together the chain link by link. \n \n The hand made chain connects together with a lobster clamp."
+    }
+  ]
+}
